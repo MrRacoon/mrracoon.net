@@ -5,16 +5,19 @@ import Project from './Project'
 export default class Projects extends Component {
   render() {
     return (
-      <Grid>
-        <Row>
-          <Col md={6} sm={12}>
-            <Project
-              title="Friend's Bands' Press Page"
-              link="http://mrracoon.net/dak"
-              />
-          </Col>
-        </Row>
-      </Grid>
+      <div>
+        <h1>Projects</h1>
+        <Grid>
+          <Row>
+            <Col md={6} sm={12}>
+              <Project
+                title="Friend's Bands' Press Page"
+                link="http://mrracoon.net/dak"
+                />
+            </Col>
+          </Row>
+        </Grid>
+      </div>
     );
   }
 }

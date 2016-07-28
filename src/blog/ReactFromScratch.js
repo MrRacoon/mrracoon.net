@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class About extends Component {
+export default class ReactFromScratch extends Component {
   render() {
     return (
       <div>
-        <h1>About Me</h1>
+        Hey let's make a react project!
       </div>
     );
   }
