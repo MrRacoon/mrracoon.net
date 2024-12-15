@@ -2,3 +2,18 @@ baseURL = 'https://mrracoon.net/'
 languageCode = 'en-us'
 title = 'MrRacoon.net'
 theme = 'ananke'
+description = 'The homepage of THE "MrRacoon"'
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/MrRacoon"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/erik-sutherland-8b873a90"
+
+[[params.ananke_socials]]
+name = "email"
+url = "mailto:erik.misu@gmail.com"
+label = "Email"
+color = "bg-light-blue"
